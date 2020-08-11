@@ -1,0 +1,39 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+.table_class{
+
+    align-items: center;
+    border-collapse:collapse;
+    border-spacing:0;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table_td{
+  padding: 10px;
+  border: 2px solid black;
+  background-color: darkturquoise;
+}
+#newId{
+ background-color:  #41B3A3;
+ background-color: #e27d60;
+  align-items: center;
+}
+.table_class tr td{
+  border: 1px solid #ccc;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.table_class tr td:nth-child(4):hover{
+  border: 1px solid transparent;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
